@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dev Lucas | Full-Stack Developer</title>
+    <meta
+      name="description"
+      content="Full-Stack Web Developer with NodeJS and React"
+    />
+    <meta charset="utf-8" />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" href="./img/icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1 id="logo">Logo</h1>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Content</a></li>
+        </ul>
+        <div class="clear"></div>
+      </nav>
+    </header>
+    <section class="hero-section">
+      <h2>The Cooking Masterclass</h2>
+      <h3>For Chefs. For Foodies.</h3>
+      <button>I want to become a master</button>
+    </section>
+    <section class="form-section">
+      <header>
+        <h2>Contact Us</h2>
+      </header>
+      <form>
+        <label for="name-input">Name:</label>
+        <input type="text" name="name" id="name-input" />
+        <label for="email-input">Email:</label>
+        <input type="email" name="email" id="email-input" />
+        <label for="message-input">Message:</label>
+        <textarea
+          name="message"
+          id="message-input"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <button onclick="submitted()">Submit</button>
+      </form>
+    </section>
+    <script>
+      function submitted() {
+        alert("Your message has been sent! Thank you");
+      }
+    </script>
+  </body>
+</html>
