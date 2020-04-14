@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+
+		<title>Dev Lucas | Full Stack Developer</title>
+		<meta
+			name="description"
+			content="Full Stack Developer on React, Node, CSS3, HTML 5 and ES6"
+		/>
+		<meta name="robots" content="index, follow" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" href="./img/icon.svg" />
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<form>
+			<fieldset>
+				<legend>My Form Group</legend>
+				<div>
+					<input type="text" name="name" placeholder="Type your name" />
+				</div>
+				<div>
+					<input type="email" name="email" placeholder="Type your email" />
+				</div>
+				<div>
+					<select name="list">
+						<option disabled selected>What is your age?</option>
+						<option value="2">&lt 18</option>
+						<option value="3">&gt 18 and &lt 24</option>
+						<option value="4">&gt 24</option>
+					</select>
+				</div>
+				<div>
+					<h2>Where do you live?</h2>
+					<div class="radio-input">
+						<div>
+							<input type="radio" name="city" value="Florianópolis" /><span
+								>Florianópolis</span
+							>
+						</div>
+						<div>
+							<input type="radio" name="city" value="São Paulo" /><span
+								>São Paulo</span
+							>
+						</div>
+						<div>
+							<input type="radio" name="city" value="Rio de Janeiro" /><span
+								>Rio de Janeiro</span
+							>
+						</div>
+						<div>
+							<input type="radio" name="city" value="Other" /><span>Other</span>
+						</div>
+					</div>
+				</div>
+				<div>
+					<h2>What do your like to eat?</h2>
+					<div class="input">
+						<div>
+							<input type="checkbox" name="food[]" value="Meat" /><span
+								>Meat</span
+							>
+						</div>
+						<div>
+							<input type="checkbox" name="food[]" value="Sushi" /><span
+								>Sushi</span
+							>
+						</div>
+						<div>
+							<input type="checkbox" name="food[]" value="Pasta" /><span
+								>Pasta</span
+							>
+						</div>
+						<div>
+							<input type="checkbox" name="food[]" value="Pizza" /><span
+								>Pizza</span
+							>
+						</div>
+					</div>
+				</div>
+				<div>
+					<textarea placeholder="Any questions?"></textarea>
+				</div>
+				<div>
+					<input type="submit" name="action" value="Submit!" />
+				</div>
+			</fieldset>
+		</form>
+
+		<script src="./script.js"></script>
+	</body>
+</html>

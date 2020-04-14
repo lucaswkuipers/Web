@@ -1,0 +1,136 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bolder;
+}
+
+html,
+body {
+	/* font-size: 62.5%; */
+	height: 100%;
+	background-color: rgba(238, 238, 238, 0.041);
+}
+
+.clear {
+	clear: both;
+}
+
+form {
+	width: 96%;
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+form fieldset {
+	padding: 20px 40px;
+	border: 1px solid #ccc;
+	border-radius: 2%;
+}
+
+form legend {
+	text-align: center;
+	font-size: 17px;
+	color: rgb(107, 107, 107);
+}
+
+form input[type="text"],
+form input[type="email"] {
+	display: inline-block;
+	margin-top: 30px;
+	width: 80%;
+	padding: 10px 13px;
+	border: 1px solid #ccc;
+	transition: 1s;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form select:focus,
+form textarea:focus {
+	outline: 0;
+	background-color: rgba(130, 130, 130, 0.278);
+}
+
+form select {
+	color: rgb(100, 100, 100);
+	width: 80%;
+	margin-top: 30px;
+	padding: 10px 13px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	transition: 1s;
+}
+
+form select option:nth-of-type(1) {
+	background-color: rgb(120, 120, 120);
+	color: white;
+}
+
+form select:hover,
+form input[type="email"]:hover,
+form input[type="text"]:hover {
+	outline: 0;
+	border: 0;
+	padding: 20px;
+	background-color: rgba(128, 128, 128, 0.178);
+	transition: 0.5s;
+}
+
+form h2 {
+	margin-top: 20px;
+	color: rgb(130, 130, 130);
+}
+
+.radio-input {
+	display: inline-block;
+	margin-top: 20px;
+	text-align: left;
+}
+
+.radio-input span {
+	margin-left: 13px;
+	font-size: 16px;
+	color: rgb(130, 130, 130);
+}
+
+.input {
+	display: inline-block;
+	margin-top: 20px;
+	text-align: left;
+}
+
+.input span {
+	margin-left: 13px;
+	font-size: 16px;
+	color: rgb(130, 130, 130);
+}
+
+form textarea {
+	border: 1px solid #ccc;
+	margin-top: 30px;
+	width: 80%;
+	padding: 10px 13px;
+	resize: none;
+	height: 40px;
+	transition: 1s;
+}
+
+form textarea:hover {
+	height: 140px;
+	transition: 0.5s;
+	background-color: rgba(209, 209, 209, 0.699);
+}
+
+form input[type="submit"] {
+	margin-top: 30px;
+	border: 2px solid rgb(130, 130, 130);
+	font-size: 16px;
+	width: 80%;
+	height: 40px;
+	background-color: rgb(140, 140, 140);
+	color: rgb(241, 241, 241);
+	cursor: pointer;
+}
